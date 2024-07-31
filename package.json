@@ -5,8 +5,8 @@
   "private": true,
   "scripts": {
     "parcel": "parcel parcel/index.html",
-    "webpack": "webpack --config webpack/webpack.config.js",
-    "start": "rm -rf ./webpack/dist && npm run webpack && webpack serve --config webpack/webpack.config.js --mode=production",
+    "webpack": "webpack --config webpack/webpack.config.js --mode=production",
+    "start": "rm -rf ./webpack/dist && npm run webpack && webpack serve --config webpack/webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
